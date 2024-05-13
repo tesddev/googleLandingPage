@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    height: 20px;
+}
+
+.blue-button{
+    background-color:  blue;
+    border: none;
+    color: white;
+    padding: .8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+main{
+    width: 80%;
+    margin: 0em auto 7em auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.google-img{
+    height: 150px;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+}
+
+input{
+    width: 300%;
+    padding: 1em;
+    border-radius: 30px;
+    border: .5px solid rgb(240, 235, 235); 
+}
+
+.SB{
+    width: 60%;
+    margin-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.btn_container{
+    margin-top: 1em;
+}
+
+.btn_container button{
+    padding: .5em 1em;
+    border: none;
+    border-radius: .2rem;
+    margin-right: .5em;
+    background-color: rgb(250, 244, 244);
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(250, 244, 244); 
+    color: white;
+}
+
+.lang{
+    color: rgb(19, 19, 235);
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(241, 237, 237);
+    color: grey;
+    margin-top: 13em;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.footer-top{
+    padding: .1em 2em;
+}
+
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.left{
+    padding-right: 0em;
+    margin-left: 1em;
+}
+
+.left a{
+    margin-right: 1em;
+    color: grey;
+}
+
+.right{
+    margin-right: 1em;
+    color: grey;
+}
+
+.right a{
+    margin-right: 1em;
+    color: grey;
+}
+
+.center{
+    color: grey;
+    margin-right: 1em;
+    margin-left: 0;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+    width: 30%;
+    border-left: 0%;
+    border-right: 35%;
+}
+
+.center a{
+    color: grey;
+    text-align: center;
+    padding-left: 0;
+}
+
+hr{
+    height: .1px;
+    border: none solid;
+    color: rgba(141, 138, 138, 0.658);
+}
+
+p a{
+    margin-right: .5em;
+}
+
+p .Hausa{
+    margin-left: .5em;
+}
