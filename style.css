@@ -195,6 +195,10 @@ p .Hausa{
     footer{
         font-size: var(--one-2-font-size);
     }
+
+    .google-img{
+        height: 140px;
+    }
 }
   
 @media screen and (max-width: 991px) {
@@ -204,6 +208,10 @@ p .Hausa{
 
     footer{
         font-size: var(--nine-91-font-size);
+    }
+
+    .google-img{
+        height: 130px;
     }
 }
   
@@ -215,6 +223,10 @@ p .Hausa{
     footer{
         font-size: var(--nine-18-font-size);
     }
+
+    .google-img{
+        height: 120px;
+    }
 }
   
 @media screen and (max-width: 768px) {
@@ -224,6 +236,10 @@ p .Hausa{
 
     footer{
         font-size: var(--seven-68-font-size);;
+    }
+
+    .google-img{
+        height: 110px;
     }
 }
   
@@ -235,6 +251,10 @@ p .Hausa{
 
     footer{
         font-size: var(--four-80-font-size);
+    }
+
+    .google-img{
+        height: 100px;
     }
   
 }
