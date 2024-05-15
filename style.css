@@ -1,16 +1,36 @@
-body{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --four-80-font-size:     8px;
+    --seven-68-font-size:    9px;
+    --nine-18-font-size:     10px;
+    --nine-91-font-size:     11px;
+    --one-2-font-size:       12px;
+  }
+
+body{
     font-family: "Noto Sans", sans-serif;
     font-size: 13px;
 }
 
 nav{
     display: flex;
-    justify-content: space-around;
-    width: 20%;
+    justify-content: flex-end;
+    width: 30%;
     margin-left: auto;
     padding: 2em;
+}
+
+nav a {
+    margin-left: 12px;
+}
+
+.nav-item {
+    margin-left: 12px;
 }
 
 a{
@@ -92,11 +112,13 @@ a{
 }
 
 footer{
+    overflow: auto;
+    position: fixed;
     width: 100%;
     background-color:rgb(241, 237, 237);
-    color: grey;
-    margin-top: 13em;
-    margin-bottom: 0;
+    color: black;
+    margin-top: 13px;
+    bottom: 0;
     font-size: 14px;
 }
 
@@ -108,7 +130,8 @@ footer{
     padding: 1em;
     display: flex;
     justify-content: space-between;
-    color: grey;
+    flex-grow: 1;
+    color: black;
 }
 
 .left{
@@ -118,7 +141,6 @@ footer{
 
 .left a{
     margin-right: 1em;
-    color: grey;
 }
 
 .right{
@@ -128,7 +150,6 @@ footer{
 
 .right a{
     margin-right: 1em;
-    color: grey;
 }
 
 .center{
@@ -140,11 +161,10 @@ footer{
     padding-left: 0;
     width: 30%;
     border-left: 0%;
-    border-right: 35%;
 }
 
 .center a{
-    color: grey;
+    color: black;
     text-align: center;
     padding-left: 0;
 }
@@ -161,4 +181,60 @@ p a{
 
 p .Hausa{
     margin-left: .5em;
+}
+
+/*---------------------------------------
+   RESPONSIVE STYLES              
+-----------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    body{
+        font-size: var(--one-2-font-size);;
+    }
+
+    footer{
+        font-size: var(--one-2-font-size);
+    }
+}
+  
+@media screen and (max-width: 991px) {
+    body{
+        font-size: var(--nine-91-font-size);
+    }
+
+    footer{
+        font-size: var(--nine-91-font-size);
+    }
+}
+  
+@media screen and (max-width: 918px) {
+    body{
+        font-size: var(--nine-18-font-size);;
+    }
+
+    footer{
+        font-size: var(--nine-18-font-size);
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    body{
+        font-size: var(--seven-68-font-size);;
+    }
+
+    footer{
+        font-size: var(--seven-68-font-size);;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+
+    body{
+        font-size: var(--four-80-font-size);
+    }
+
+    footer{
+        font-size: var(--four-80-font-size);
+    }
+  
 }
