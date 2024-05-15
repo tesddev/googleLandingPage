@@ -119,7 +119,6 @@ footer{
     color: black;
     margin-top: 13px;
     bottom: 0;
-    font-size: 14px;
 }
 
 .footer-top{
@@ -134,9 +133,14 @@ footer{
     color: black;
 }
 
+.footer-item {
+    flex: 1;
+}
+
 .left{
     padding-right: 0em;
     margin-left: 1em;
+    text-align: left;
 }
 
 .left a{
@@ -146,6 +150,7 @@ footer{
 .right{
     margin-right: 1em;
     color: grey;
+    text-align: right;
 }
 
 .right a{
@@ -241,6 +246,10 @@ p .Hausa{
     .google-img{
         height: 110px;
     }
+
+    .left, .right {
+        margin-top: 40px;
+    }
 }
   
 @media screen and (max-width: 480px) {
@@ -255,6 +264,10 @@ p .Hausa{
 
     .google-img{
         height: 100px;
+    }
+
+    .left, .right {
+        margin-top: 40px;
     }
   
 }
